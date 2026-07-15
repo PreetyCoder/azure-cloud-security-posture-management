@@ -1,0 +1,5 @@
+Resources
+| where type =~ 'microsoft.storage/storageaccounts'
+| extend secureTransfer=tostring(properties.supportsHttpsTrafficOnly)
+| where secureTransfer == "false"
+| project name, resourceGroup
