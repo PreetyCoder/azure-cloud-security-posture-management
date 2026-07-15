@@ -1,0 +1,2 @@
+SecurityResources
+| where properties.status.code == "Unhealthy"
