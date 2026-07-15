@@ -1,69 +1,49 @@
-# Azure Cloud Security Posture Management
+# ☁️ Azure Cloud Security Posture Management Framework
 
-## Overview
+## 🚀 Overview
 
-Cloud Security Governance Framework demonstrating:
-
-- Azure Security
-- Defender for Cloud
-- Compliance Mapping
-- Security Automation
-- AI Security Controls
+A Security Engineering project demonstrating Cloud Security Governance, Compliance Mapping, Vulnerability Assessment, and AI Security best practices.
 
 ---
 
-## Technologies
+## 🛠 Technologies Used
 
 - Microsoft Defender for Cloud
-- Azure Policies
+- Azure Policy
 - Azure Resource Graph
 - Microsoft Sentinel
 - KQL
 - Logic Apps
 - Entra ID
+- AI Security Controls
 
 ---
 
-## Security Areas
+## 🔐 Security Areas Covered
 
 ### Identity Security
-- RBAC
-- MFA
-- Conditional Access
+✅ RBAC  
+✅ Conditional Access  
+✅ MFA Enforcement  
 
 ### Infrastructure Security
-- Public Exposure Monitoring
-- Vulnerability Management
-- Security Hardening
+✅ Security Posture Management  
+✅ Vulnerability Assessment  
+✅ Public Exposure Detection  
 
 ### Data Security
-- Encryption
-- Key Vault Security
-- Secure Hosting
+✅ Encryption Controls  
+✅ Key Vault Security  
+✅ Secure Hosting  
 
 ### Compliance
-- SOC2
-- ISO27001
-- GDPR
-- CIS
+✅ SOC2  
+✅ ISO27001  
+✅ GDPR  
+✅ CIS Benchmarks  
 
 ### AI Security
-- Prompt Injection Protection
-- Data Leakage Prevention
-- Secure LLM Deployment
-
----
-
-## Sample Architecture
-
-Azure Resources
-↓
-Defender for Cloud
-↓
-Azure Policies
-↓
-ARG Queries
-↓
-Compliance Dashboards
-↓
-Security Reporting
+✅ Prompt Injection Risks  
+✅ Secure LLM Deployment  
+✅ Audit Logging  
+✅ Data Leakage Prevention  
